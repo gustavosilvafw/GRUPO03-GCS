@@ -14,6 +14,8 @@ public class SingletonBD {
     }
 
     public static void atualizarUsuario(){ }
+        /// atualizar usuario
+
 
     public static void listarUsuarios(){ }
 
