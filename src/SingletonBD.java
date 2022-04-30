@@ -13,8 +13,18 @@ public class SingletonBD {
         listaUsuario.clear();
     }
 
-    public static void atualizarUsuario(){ }
+    public static void atualizarUsuario(){
         /// atualizar usuario
+        for (Usuario usuario : listaUsuario) {
+            if (usuario.getUsuario().equals(user)) {
+                found = true;
+                name = "Nome atualizado";
+            }
+            else {
+                System.out.println("Sem user");
+            }
+        }
+    }
 
 
     public static void listarUsuarios(){ }
