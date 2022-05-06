@@ -17,12 +17,12 @@ public class SingletonBD {
         listaUsuario.clear();
     }
 
-    public static void atualizarUsuario(){
+    public static void atualizarUsuario() {
         /// atualizar usuario
         if (listaUsuarioo.size()) {
             listaUsuario.get(0).setNome("Nome atualizado");
         }
-
+    }
 
     public static void listarUsuarios(){
         for (Usuario u : listaUsuario) {
