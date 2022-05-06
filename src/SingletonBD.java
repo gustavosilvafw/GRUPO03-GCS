@@ -19,7 +19,7 @@ public class SingletonBD {
 
     public static void atualizarUsuario() {
         /// atualizar usuario
-        if (listaUsuarioo.size()) {
+        if (listaUsuario.size()) {
             listaUsuario.get(0).setNome("Nome atualizado");
         }
     }
