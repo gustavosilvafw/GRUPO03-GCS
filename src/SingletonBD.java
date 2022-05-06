@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class SingletonBD {
 
-    private static ArrayList<Usuario> listaUsuario = new ArrayList<Usuario>();
+    private static ArrayList<Usuario> listaUsuario = new ArrayList<>();
 
     private SingletonBD() { }
 
@@ -24,6 +24,11 @@ public class SingletonBD {
         }
 
 
-    public static void listarUsuarios(){ }
+    public static void listarUsuarios(){
+        for (Usuario u : listaUsuario) {
+            System.out.println("Usuario: " + u.getUsuario());
+            System.out.println("Nome: " + u.getNome());
+        }
+    }
 
 }
